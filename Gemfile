@@ -5,8 +5,8 @@ source "https://rubygems.org"
 gemspec
 
 gem "rails", "~> 6.0.0"
-gem "omniauth"
-gem "omniauth-oauth2"
+gem "omniauth", ">= 2.0.0"
+gem "omniauth-oauth2", ">= 1.7.1"
 gem "rdoc"
 
 gem "activemodel-serializers-xml", github: "rails/activemodel-serializers-xml"
@@ -16,7 +16,7 @@ gem "rails-controller-testing", github: "rails/rails-controller-testing"
 gem "responders", "~> 3.0"
 
 group :test do
-  gem "omniauth-facebook"
+  gem "omniauth-facebook", ">= 7.0.0"
   gem "omniauth-openid"
   gem "timecop"
   gem "webrat", "0.7.3", require: false
