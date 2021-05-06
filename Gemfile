@@ -7,7 +7,7 @@ gemspec
 gem "rails", "~> 6.0.0"
 gem "omniauth"
 gem "omniauth-oauth2"
-gem "rdoc"
+gem "rdoc", ">= 6.3.0"
 
 gem "activemodel-serializers-xml", github: "rails/activemodel-serializers-xml"
 
